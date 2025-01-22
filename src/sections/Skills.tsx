@@ -24,7 +24,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="scroll-mt-24 pt-24 md:pt-0 gap-1 ">
+    <section id="skills" className="scroll-mt-24 md:pt-0 gap-1 ">
           <h2 className="text-5xl md:text-8xl font-bold mb-8  text-background px-4 bg-primary">Skills</h2>
           <div className="grid md:grid-cols-3 gap-6 px-4">
             {skills.map((skillGroup) => (

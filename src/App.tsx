@@ -33,7 +33,7 @@ function App() {
     <div className="min-h-screen  transition-colors duration-300">
       <HeroBg />
       <Navigation toggleTheme={toggleTheme} theme={theme} />
-      <main className="container mx-auto px-0 pt-24 pb-12 space-y-20">
+      <main className="container mx-auto px-0 pt-24 pb-12 space-y-0">
         <Hero />
         <About />
         <Skills />

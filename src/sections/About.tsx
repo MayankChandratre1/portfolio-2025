@@ -1,7 +1,7 @@
 import {motion} from "motion/react"
 const About = () => {
   return (
-    <section id="about" className="scroll-mt-24 grid md:grid-cols-2 grid-cols-1 max-h-[80vh]">
+    <section id="about" className="scroll-mt-24 grid md:grid-cols-2 grid-cols-1">
     <div className=" ">
       <div className="bg-primary">
         <motion.h2 
@@ -26,7 +26,7 @@ const About = () => {
         </p>
       </div>
     </div>
-      <div className="max-h-[83.5%] relative  overflow-hidden">
+      <div className="h-full md:max-h-[83.5%] relative  overflow-hidden">
         
         <motion.img initial={{ translateX: "100px" }}
         whileInView={{translateX: 0,transition:{duration:1, type:"spring"} }}
