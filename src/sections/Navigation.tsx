@@ -62,7 +62,7 @@ export default function Navigation({ toggleTheme, theme }:any) {
             {theme === "light" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
           </Button>
           <Button asChild>
-            <a href="/resume.pdf" target="_blank" className="flex items-center gap-2" rel="noreferrer">
+            <a href="https://docs.google.com/document/d/1AuKUPGUwn8WN1e_5Z0s1SRX210Koj89FcvcW9wCLbSk/edit?usp=sharing" target="_blank" className="flex items-center gap-2" rel="noreferrer">
               <FileText className="h-4 w-4" />
               <span className="hidden lg:inline">Resume</span>
             </a>
