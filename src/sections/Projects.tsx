@@ -36,7 +36,7 @@ const projects = [
   },
   {
     title: "FirmFlow - Payroll Management",
-    description: "A comprehensive payroll management system for businesses.",
+    description: "A comprehensive payroll management system for businesses. (Creds: admin@firmflow.com | password: Admin@123)",
     tech: ["Angular", "Typescript", ".NET 9", "C#", "PostgreSQL"],
     link: "https://github.com/MayankChandratre1/FirmFlowFrontend",
     live: "https://firm-flow-frontend.vercel.app/",
