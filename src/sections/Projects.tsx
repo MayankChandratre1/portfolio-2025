@@ -34,6 +34,14 @@ const projects = [
     live: "https://x.com/code_D_dragon",
     image: "https://res.cloudinary.com/dvsl1aslo/image/upload/v1737462723/ACTION_1_znmubc.png",
   },
+  {
+    title: "FirmFlow - Payroll Management",
+    description: "A comprehensive payroll management system for businesses.",
+    tech: ["Angular", "Typescript", ".NET 9", "C#", "PostgreSQL"],
+    link: "https://github.com/MayankChandratre1/FirmFlowFrontend",
+    live: "https://firm-flow-frontend.vercel.app/",
+    image: "https://res.cloudinary.com/dvsl1aslo/image/upload/v1752843803/ACTION_4_jhrwji.png",
+  },
 ];
 
 const Projects = () => {
