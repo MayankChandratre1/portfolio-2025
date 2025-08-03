@@ -221,7 +221,9 @@ export default function Navigation({ toggleTheme, theme }: any) {
                     rel="noreferrer"
                     onClick={(e) => {
                       e.preventDefault();
-                      setIsOpen(false);
+			setTimeout(()=>{
+                      		setIsOpen(false);
+			},1000);
                     }}
                   >
                     <FileText className="h-4 w-4" />
