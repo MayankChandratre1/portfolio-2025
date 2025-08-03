@@ -215,7 +215,7 @@ export default function Navigation({ toggleTheme, theme }: any) {
                   className="w-full bg-primary hover:bg-primary/90 transition-colors duration-200"
                 >
                   <a
-                    href="https://docs.google.com/document/d/1AuKUPGUwn8WN1e_5Z0s1SRX210Koj89FcvcW9wCLbSk/edit?usp=sharing"
+                    href="https://drive.google.com/file/d/1qKVt_p07nGvnw3FK4MU9cEVZ3uD6gAxq/view?usp=sharing"
                     target="_blank"
                     className="flex items-center justify-center gap-2"
                     rel="noreferrer"
