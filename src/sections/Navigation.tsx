@@ -219,11 +219,6 @@ export default function Navigation({ toggleTheme, theme }: any) {
                     target="_blank"
                     className="flex items-center justify-center gap-2"
                     rel="noreferrer"
-                    onClick={(e) => {
-			setTimeout(()=>{
-                      		setIsOpen(false);
-			},1000);
-                    }}
                   >
                     <FileText className="h-4 w-4" />
                     Download Resume
