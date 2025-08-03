@@ -220,7 +220,6 @@ export default function Navigation({ toggleTheme, theme }: any) {
                     className="flex items-center justify-center gap-2"
                     rel="noreferrer"
                     onClick={(e) => {
-                      e.preventDefault();
 			setTimeout(()=>{
                       		setIsOpen(false);
 			},1000);
